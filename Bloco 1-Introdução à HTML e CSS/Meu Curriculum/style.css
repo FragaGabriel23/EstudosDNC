@@ -1,0 +1,68 @@
+
+#cabeçalho{
+    background-color:#11b3db;
+    margin-top:50px;
+    margin-bottom:50px;
+    font-family: 'Hubballi', cursive;
+    
+}
+
+#nomeETitulo{
+    background-color: whitesmoke;
+    width: 500px;
+    text-align:center;
+    margin:0 auto;
+}
+
+#nomeETitulo h1, h2{
+    margin:0;
+}
+
+h1, h2, h3{
+    text-transform: uppercase;
+}
+
+#listaContatos{
+    list-style-type:none;
+
+}
+
+#listaContatos i {
+    width:30px;
+    color: #11b3db;
+}
+
+#links i {
+    width:30px;
+    color: #11b3db;
+}
+
+#links {
+    list-style-type:none;
+}
+
+#container{
+    display:grid;
+    grid-template-columns: 30% auto;
+    column-gap: 20px;
+    
+}
+
+#barraLateral, #conteudo{
+    display:flex;
+    flex-direction: column;
+    row-gap: 20px;
+}
+
+.card h3{
+    font-family: 'Hubballi', cursive;
+
+}
+
+.card{
+    font-family: 'Montserrat', sans-serif;
+    border: 1px solid rgb(189, 189, 189);
+    border-radius:15px;
+    padding:20px;
+}
+
