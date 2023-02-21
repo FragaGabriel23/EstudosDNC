@@ -1,0 +1,120 @@
+<h1>Meu Envie uma Mensagem</h1>
+
+<form 
+    action="https://formspree.io/f/xknajeor" 
+    method="POST">
+   
+    <p>
+        <label>Nome</label><br>
+        <input 
+            required
+            type="text" 
+            placeholder="Digite Seu Nome"
+            name="nome"><br>
+
+        <label>Email</label><br>
+        <input
+            required
+            type="email"
+            placeholder="Digite seu Email"
+            name="email"><br>
+
+        <label>Estado</label><br>
+        <select required name="Estado">
+            <option selected>Selecione Seu Estado</option>
+            <option>Acre</option>
+            <option>Alagoas</option>
+            <option>Amapá</option>
+            <option>Amazonas</option>
+            <option>Bahia</option>
+            <option>Ceará</option>
+            <option>Distrito Federal</option>
+            <option>Espírito Santo</option>
+            <option>Goiás</option>
+            <option>Maranhão</option>
+            <option>Mato Grosso</option>
+            <option>Mato Grosso do Sul</option>
+            <option>Minas Gerais</option>
+            <option>Pará</option>
+            <option>Paraíba</option>
+            <option>Paraná</option>
+            <option>Pernambuco</option>
+            <option>Piauí</option>
+            <option>Rio de Janeiro</option>
+            <option>Rio Grande do Norte</option>
+            <option>Rio Grande do Sul</option>
+            <option>Rondônia</option>
+            <option>Roraima</option>
+            <option>Santa Catarina</option>
+            <option>São Paulo</option>
+            <option>Sergipe</option>
+            <option>Tocantins</option>
+        </select>    
+    </p>
+
+    <p>
+       <label>Digite Aqui Sua Mensagem </label><br>
+        <textarea 
+            required
+            rows="10"
+            cols="48"
+            placeholder="Digite Algo..." 
+            name="Mensagem"
+        ></textarea>
+    </p>
+
+    <p>
+        <label>Qual o Motivo da Sua Mensagem?</label><br>
+       <ul>
+            <li><input
+                type="checkbox"
+                value="Sugestão"
+                name="MotivoDaMensagem"
+            >Sugestao</li>
+
+            <li><input
+                type="checkbox"
+                value="VagaDeEmprego"
+                name="MotivoDaMensagem"
+            >Vaga De Emprego</li>
+
+            <li><input
+                type="checkbox"
+                value="Dúvida"
+                name="MotivoDaMensagem"
+            >Duvida</li>
+
+            <li><input
+                type="checkbox"
+                value="Outros"
+                name="MotivoDaMensagem"
+            >Outros...</li>
+        </ul> 
+    </p>
+
+    <P>
+        <label>Gostaria de ser Respondido?</label><br>
+        <input
+            checked
+            type="radio"
+            value="Sim"
+            name="SerRespondido">Sim<br>
+        
+        <input
+            type="radio"
+            value="Nao"
+            name="SerRespondido">Nao    
+    </P>
+
+    <p>
+        <input 
+            required
+            type="checkbox" 
+            value="Sim"
+            name="TermosDeUso"
+        >Li e Aceito os Termos de Uso do Site
+    </p>
+    <button type="submit">Enviar</button>
+
+</form>
+
